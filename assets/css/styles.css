@@ -77,7 +77,24 @@
   }
 }
 
+.features-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
 }
+
+.features-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.features-boxed .features {
+  padding: 50px 0;
+}
+
+.features-boxed .item {
+  text-align: center;
+}
+
 .features-boxed .item .box {
   text-align: center;
   padding: 30px;
@@ -112,7 +129,6 @@ a:hover {
 }
 
 .shadow-lg.box:hover {
-  /*filter: hue-rotate(0deg) invert(0%) sepia(0%);*/
   background: rgb(244,241,241);
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -134,7 +150,6 @@ a {
 .container {
   margin: 0 auto;
   padding: 4rem;
-  /*width: 48rem;*/
   color: var(--secondary-text-color);
 }
 
