@@ -1,7 +1,7 @@
 :root {
-  --main-color: #7289DA;
+  --main-color: #72da76;
   --background: #1d1d1e;
-  --secondary: #869def;
+  --secondary: #72da76;
   --text-color: #fff;
   --secondary-text-color: #dcdcdc;
 }
@@ -77,24 +77,7 @@
   }
 }
 
-.features-boxed .intro {
-  font-size: 16px;
-  max-width: 500px;
-  margin: 0 auto;
 }
-
-.features-boxed .intro p {
-  margin-bottom: 0;
-}
-
-.features-boxed .features {
-  padding: 50px 0;
-}
-
-.features-boxed .item {
-  text-align: center;
-}
-
 .features-boxed .item .box {
   text-align: center;
   padding: 30px;
@@ -199,8 +182,6 @@ a {
   right: 0;
   width: 22px;
   height: 22px;
-  border: 1px solid;
-  border-radius: 22px;
 }
 
 .accordion button .icon::before {
@@ -235,7 +216,7 @@ a {
 
 .accordion button[aria-expanded='true'] + .accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 250em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
@@ -263,5 +244,17 @@ div#features {
 
 div#features:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.partner:hover {
+  border-radius: 598px;
+  border-style: solid;
+  border-color: var(--main-color);
+}
+
+.partner {
+  width: 160px;
+  height: 160px;
+  transition: all 200ms linear;
 }
 
