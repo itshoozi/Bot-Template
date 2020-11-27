@@ -273,3 +273,8 @@ div#features:hover {
   transition: all 200ms linear;
 }
 
+.yeet {
+  text-align: center;
+  padding: 18px;
+}
+
