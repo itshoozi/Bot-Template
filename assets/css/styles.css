@@ -1,7 +1,8 @@
 :root {
-  --main-color: #72da76;
+  --main-color: #f54254;
   --background: #1d1d1e;
-  --secondary: #72da76;
+  --secondary: #262626;
+  --link: #f54254;
   --text-color: #fff;
   --secondary-text-color: #dcdcdc;
 }
@@ -9,7 +10,11 @@
 /* scroll bar */
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -158,7 +163,7 @@ a {
 }
 
 .accordion .accordion-item button[aria-expanded='true'] {
-  border-bottom: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--link);
 }
 
 .accordion button {
@@ -177,13 +182,13 @@ a {
 
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: var(--secondary);
+  color: var(--link);
 }
 
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
-  color: var(--secondary);
-  border-right: 1px solid var(--secondary);
+  color: var(--link);
+  border-right: 1px solid var(--link);
 }
 
 .accordion button .accordion-title {
@@ -222,7 +227,7 @@ a {
 }
 
 .accordion button[aria-expanded='true'] {
-  color: var(--secondary);
+  color: var(--link);
 }
 
 .accordion button[aria-expanded='true'] .icon::after {
